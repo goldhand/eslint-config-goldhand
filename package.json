@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-goldhand",
+  "version": "0.0.1",
+  "description": "Eslint configuration used by @goldhand",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldhand/eslint-config-goldhand.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Will Farley <a.will.farley@gmail.com> (http://www.willfarley.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goldhand/eslint-config-goldhand/issues"
+  },
+  "homepage": "https://github.com/goldhand/eslint-config-goldhand#readme",
+  "dependencies": {
+    "eslint-restricted-globals": "^0.1.1"
+  },
+  "peerDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}
